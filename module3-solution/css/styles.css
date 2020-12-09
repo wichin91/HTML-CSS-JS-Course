@@ -1,1 +1,44 @@
+body {
+  font-size: 16px;
+  font-family: 'Arial Black', sans-serif;
+  margin: 0;
+}
 
+/** HEADER **/
+.navbar-brand {
+  padding: 0;
+}
+.navbar-nav {
+	background-color: lightgrey;
+}
+.nav-item {
+	text-align: center;
+	border: 1px solid black;
+}
+
+#heading-cont {
+	text-align: center;
+	padding: 15px;
+}
+.p-cont {
+	margin-bottom: 10px;
+}
+.p-cont h3{
+	font-size: 20px;
+	text-align: center;
+	color: lightgrey;
+	padding-top: 20px;
+}
+.p-cont p{
+	text-align: justify;
+	text-indent: 20px;
+	color: #333;
+	padding: 20px;
+}
+
+@media (max-width: 576px) {
+	
+	.navbar-brand h1 {
+		font-size: 30px;
+	}
+}
